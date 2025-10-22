@@ -159,15 +159,6 @@ return {
         },
       },
       basedpyright = {},
-      superhtml = {
-        filetypes = {
-          'html',
-          'twig',
-          'hbs',
-          'shtml',
-          'htm',
-        },
-      },
       ts_ls = {},
     }
 
