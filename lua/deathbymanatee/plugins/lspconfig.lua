@@ -160,15 +160,10 @@ return {
         },
       },
       basedpyright = {},
-      superhtml = {
-        filetypes = {
-          'html',
-          'twig',
-          'hbs',
-          'htmldjango',
-        },
-      },
       ts_ls = {},
+      powershell_es = {},
+      cssls = {},
+      emmet_language_server = {},
     }
 
     local formatters = {
@@ -179,6 +174,8 @@ return {
       'stylua',
       -- html
       'djlint',
+      'prettier',
+      'prettierd',
     }
 
     -- Ensure the servers and tools above are installed

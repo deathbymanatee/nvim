@@ -61,3 +61,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   group = highlight_group,
   pattern = '*',
 })
+
+-- set python provider
+vim.g.python3_host_prog = '~/.uv/pynvim/Scripts/python.exe'
