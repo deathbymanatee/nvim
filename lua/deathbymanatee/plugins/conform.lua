@@ -37,7 +37,6 @@ return {
       javascript = { 'prettierd', 'prettier', stop_after_first = true },
       html = { 'prettier' },
       css = { 'prettier' },
-      markdown = { 'prettier' },
     },
   },
 }
