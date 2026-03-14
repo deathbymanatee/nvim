@@ -1,9 +1,9 @@
+-- Sets html file filetype to htmldjango if current working director is a Django project
 local setlocal = vim.opt_local
 
--- Sets html file filetype to htmldjango if current working director is a Django project
 ---@param cwd string
 local function validate_django_project(cwd)
-  local result = vim.fn.globpath(cwd, '**/mange.py', false, true)
+  local result = vim.fn.globpath(cwd, '**/manage.py', false, true)
   return #result > 0
 end
 
