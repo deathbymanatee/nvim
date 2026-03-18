@@ -158,19 +158,9 @@ return {
           },
         },
       },
-      basedpyright = {},
-      ts_ls = {},
     }
 
-    local formatters = {
-      -- python
-      'black',
-      'isort',
-      -- lua
-      'stylua',
-      -- htmldjango
-      'djlint',
-    }
+    local formatters = { }
 
     -- Ensure the servers and tools above are installed
     --
