@@ -158,9 +158,13 @@ return {
           },
         },
       },
+      nil_ls = {},
+      ts_ls = {},
     }
 
-    local formatters = { }
+    local formatters = {
+      'prettier',
+    }
 
     -- Ensure the servers and tools above are installed
     --
