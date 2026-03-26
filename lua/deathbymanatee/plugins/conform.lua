@@ -40,6 +40,7 @@ return {
       },
       html = { 'prettier' },
       css = { 'prettier' },
+      nix = { 'nixfmt' }
     },
   },
 }
