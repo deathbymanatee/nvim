@@ -38,6 +38,8 @@ return {
         'prettier',
         stop_after_first = true,
       },
+      typescript = { 'prettier' },
+      typescriptreact = { 'prettier' },
       html = { 'prettier' },
       css = { 'prettier' },
       nix = { 'nixfmt' }
